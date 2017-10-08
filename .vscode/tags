@@ -1,0 +1,89 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APPLICATION_NAME	../gmail_API.py	/^APPLICATION_NAME = 'Gmail API Python Quickstart'$/;"	kind:variable	line:28
+CLIENT_SECRET_FILE	../gmail_API.py	/^CLIENT_SECRET_FILE = 'client_id.json'$/;"	kind:variable	line:27
+KFoldNet.py	../KFoldNet.py	1;"	kind:file	line:1
+SCOPES	../gmail_API.py	/^SCOPES = 'https:\/\/www.googleapis.com\/auth\/gmail.readonly'$/;"	kind:variable	line:26
+X_te	../tokenize_emails.py	/^X_te = X[:10]$/;"	kind:variable	line:87
+X_tr	../tokenize_emails.py	/^X_tr = X[10:]$/;"	kind:variable	line:86
+__new__	../KFoldNet.py	/^    def __new__($/;"	kind:member	line:21
+_in	../tokenize_emails.py	/^_in = to_json.get_json('INBOX')$/;"	kind:variable	line:13
+_rc	../tokenize_emails.py	/^_rc = to_json.get_json('RCRT')$/;"	kind:variable	line:14
+activity_regularizer	../model_.py	/^            activity_regularizer=l2(0.003)$/;"	kind:variable	line:22
+activity_regularizer	../model_.py	/^            activity_regularizer=l2(0.003)$/;"	kind:variable	line:41
+bias_regularizer	../model_.py	/^            bias_regularizer=l2(0.003),$/;"	kind:variable	line:21
+bias_regularizer	../model_.py	/^            bias_regularizer=l2(0.003),$/;"	kind:variable	line:40
+c	../model_.py	/^        c = shp$/;"	kind:variable	line:8
+combine_jsons	../to_json.py	/^def combine_jsons():$/;"	kind:function	line:150
+count_common_keys	../to_json.py	/^def count_common_keys():$/;"	kind:function	line:77
+credentials	../gmail_API.py	/^    credentials = get_credentials()$/;"	kind:variable	line:68
+define_model	../model_.py	/^def define_model(shp, num_words):$/;"	kind:function	line:1
+dup_keys	../to_json.py	/^def dup_keys():$/;"	kind:function	line:46
+emb	../meta_.py	/^emb = model.layers[0]$/;"	kind:variable	line:13
+embedding	../meta_.py	/^embedding = X$/;"	kind:variable	line:6
+explore	../to_json.py	/^def explore():$/;"	kind:function	line:38
+find_nulls	../to_json.py	/^def find_nulls():$/;"	kind:function	line:140
+flags	../gmail_API.py	/^    flags = None$/;"	kind:variable	line:22
+flattenDict	../infer.py	/^def flattenDict(d, result=None):$/;"	kind:function	line:14
+get_credentials	../gmail_API.py	/^def get_credentials():$/;"	kind:function	line:33
+get_json	../to_json.py	/^def get_json(_j): return _j$/;"	kind:function	line:31
+get_labels	../gmail_API.py	/^    def get_labels(name='Recruiter'):$/;"	kind:member	line:72
+get_messages	../gmail_API.py	/^    def get_messages():$/;"	kind:member	line:81
+gmail_API.py	../gmail_API.py	1;"	kind:file	line:1
+http	../gmail_API.py	/^    http = credentials.authorize(httplib2.Http())$/;"	kind:variable	line:69
+infer.py	../infer.py	1;"	kind:file	line:1
+input_shape	../model_.py	/^            input_shape=(128,),$/;"	kind:variable	line:19
+iter_res	../gmail_API.py	/^        def iter_res():$/;"	kind:function	line:86
+iterations	../tokenize_emails.py	/^        iterations=20$/;"	kind:variable	line:107
+kF	../KFoldNet.py	/^class kF:$/;"	kind:class	line:19
+kFold	../KFoldNet.py	/^def kFold():$/;"	kind:function	line:53
+kernel_regularizer	../model_.py	/^            kernel_regularizer=l2(0.003),$/;"	kind:variable	line:20
+kernel_regularizer	../model_.py	/^            kernel_regularizer=l2(0.003),$/;"	kind:variable	line:39
+kf	../tokenize_emails.py	/^        kf=False,$/;"	kind:variable	line:103
+kill	../to_json.py	/^    def kill(elim): return list(map(lambda k: index.pop(k), elim))$/;"	kind:function	line:65
+loss	../model_.py	/^        loss='binary_crossentropy',$/;"	kind:variable	line:50
+make_it_so	../gmail_API.py	/^    def make_it_so(orders):$/;"	kind:member	line:212
+meta	../KFoldNet.py	/^def meta():$/;"	kind:function	line:142
+meta_	../tokenize_emails.py	/^        meta_=False,$/;"	kind:variable	line:104
+meta_.py	../meta_.py	1;"	kind:file	line:1
+metadata	../gmail_API.py	/^    def metadata(msg_id, user_id):$/;"	kind:member	line:118
+metadata	../tokenize_emails.py	/^def metadata():$/;"	kind:function	line:62
+metrics	../model_.py	/^        metrics=['accuracy']$/;"	kind:variable	line:52
+miniTokenizer	../tokenize_emails.py	/^def miniTokenizer(_x, k='subject'):$/;"	kind:function	line:54
+model	../tokenize_emails.py	/^model = define_model(X_tr.shape[-1], num_words)$/;"	kind:variable	line:94
+model_.py	../model_.py	1;"	kind:file	line:1
+nest_dictionaries	../to_json.py	/^def nest_dictionaries(d, n):$/;"	kind:function	line:127
+neurons	../model_.py	/^    class neurons:$/;"	kind:class	line:7
+newModel	../tokenize_emails.py	/^        newModel=True,$/;"	kind:variable	line:102
+num_classes	../tokenize_emails.py	/^num_classes = 2$/;"	kind:variable	line:16
+num_words	../tokenize_emails.py	/^num_words = 1000$/;"	kind:variable	line:17
+optimizer	../model_.py	/^        optimizer='nadam',$/;"	kind:variable	line:51
+organize_common_keys	../to_json.py	/^def organize_common_keys():$/;"	kind:function	line:97
+predict	../tokenize_emails.py	/^        predict=(y_te, X_te),$/;"	kind:variable	line:105
+predictor	../KFoldNet.py	/^def predictor():$/;"	kind:function	line:195
+pretty	../gmail_API.py	/^def pretty(json_mappable):$/;"	kind:function	line:14
+pretty	../to_json.py	/^def pretty(json_mappable):$/;"	kind:function	line:157
+process	../gmail_API.py	/^    def process(msg_id, user_id):$/;"	kind:member	line:145
+query	../gmail_API.py	/^class query():$/;"	kind:class	line:61
+reader	../to_json.py	/^def reader(f):$/;"	kind:function	line:21
+run_kfold	../KFoldNet.py	/^def run_kfold():$/;"	kind:function	line:81
+service	../gmail_API.py	/^    service = discovery.build('gmail', 'v1', http=http)$/;"	kind:variable	line:70
+set_json	../to_json.py	/^def set_json(_j, name): return _j, name$/;"	kind:function	line:35
+show_common	../to_json.py	/^def show_common():$/;"	kind:function	line:161
+subdivide	../KFoldNet.py	/^def subdivide(start, end, X, y):$/;"	kind:function	line:68
+targets	../gmail_API.py	/^    targets = {'INBOX': 0}, {'RCRT': 100}$/;"	kind:variable	line:219
+to_json.py	../to_json.py	1;"	kind:file	line:1
+tokenize_emails.py	../tokenize_emails.py	1;"	kind:file	line:1
+train	../tokenize_emails.py	/^        train=True,$/;"	kind:variable	line:106
+train_model	../KFoldNet.py	/^def train_model():$/;"	kind:function	line:89
+tsv_	../tokenize_emails.py	/^        tsv_=tsv_,$/;"	kind:variable	line:101
+words	../tokenize_emails.py	/^def words():$/;"	kind:function	line:20
+wrapper	../to_json.py	/^    def wrapper(*args):$/;"	kind:function	line:22
+wrapper	../to_json.py	/^    def wrapper(*args, **kwargs):$/;"	kind:function	line:8
+writer	../to_json.py	/^def writer(f):$/;"	kind:function	line:7
+y_te	../tokenize_emails.py	/^y_te = y[:10]$/;"	kind:variable	line:90
+y_tr	../tokenize_emails.py	/^y_tr = y[10:]$/;"	kind:variable	line:89
